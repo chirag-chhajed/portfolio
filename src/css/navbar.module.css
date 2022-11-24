@@ -1,0 +1,28 @@
+.navbar{
+    display: none;
+}
+
+@media screen and (min-width:600px) {
+    .navbar{
+        display: flex;
+        
+    }
+    .navbar ul{
+        display: flex;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: white;
+    }
+    .navbar li{
+        gap: 2rem;
+        font-size: 1.5rem;
+        text-indent: 1rem;
+    } 
+    .navbar li::marker{
+        content: '#';
+        font-size: 1.5rem;
+    }
+}
