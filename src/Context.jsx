@@ -10,7 +10,12 @@ function ContextProvider({children}){
     },[theme])
     useLayoutEffect(()=>{
         const style = localStorage.getItem("theme");
-        setTheme(style)
+        if(style===null){
+            setTheme("dark")
+        } else{
+            setTheme(style)
+        }
+        
     },[])
 
     const [windowWidth,setWindowWidth] = useState(window.innerWidth)
