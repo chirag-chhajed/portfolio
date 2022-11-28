@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 1fr;
     padding: 3rem 2rem;
+    background-color: #457b9d;
 }
-
 .projectcard {
     width: 350px;
     padding: 2rem;
@@ -13,9 +13,10 @@
     flex-direction: column;
     margin-inline: auto;
     gap: 1rem;
-    background-color: plum;
+    background-color: #e63946;
     border-radius: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px black;
 }
 
 .projectcard>.projectimage {
@@ -68,4 +69,11 @@
         grid-template-columns: repeat(5,1fr);
         grid-template-rows: repeat(1,1fr);
     }
+}
+
+.blue{
+
+}
+.green{
+    
 }

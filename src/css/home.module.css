@@ -6,11 +6,10 @@ section.home {
     padding: 3rem 2rem;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #433C67;
+    background-color: #457b9d;
     gap: 2rem;
-    color: white;
+    color: #f1faee;
 }
-
 .home div {
     display: flex;
     flex-direction: column;
@@ -23,9 +22,7 @@ section.home {
 
 .home div h1 span {
     
-    background: linear-gradient(90deg, hsla(284, 80%, 10%, 1) 0%, hsla(290, 25%, 76%, 1) 100%);
-    /* background: linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%); */
-    /* background: linear-gradient(90deg, #fcb0f3 0%, #3e04dc 100%); */
+    background: linear-gradient(90deg, hsla(266, 63%, 26%, 1) 0%, hsla(354, 55%, 63%, 1) 100%, hsla(31, 100%, 74%, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
@@ -74,4 +71,10 @@ section.home {
         background-image: url(../../public/2.png);
         background-repeat: no-repeat;
     }
+}
+.blue{
+
+}
+.green{
+    
 }

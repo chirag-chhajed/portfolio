@@ -7,15 +7,9 @@
     padding-inline: 2rem;
     padding-block: 1rem;
     background-color:var(--header);
-    color: #e0b1cb;
+    color: #f1faee;
     z-index: 2;
     transition: background-color 0.3s ease;
-}
-.purple{
-    --header: #231942;
-}
-.dark{
-    --header: green;
 }
 .new{
     --header: black;
@@ -49,4 +43,11 @@ header div > i.ri-brush-2-fill{
     .header div i.ri-menu-line{
        display: block;
     }
+}
+
+.blue{
+    --header: #1d3557;
+}
+.green{
+    --header: green;
 }
