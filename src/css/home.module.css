@@ -2,12 +2,12 @@ section.home {
     min-height: 85vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding-inline: 2rem;
+    justify-content: space-between;
+    padding: 3rem 2rem;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: plum;
-    /* text-align: justify; */
+    gap: 4rem;
 }
 
 .home div {
@@ -32,7 +32,12 @@ section.home {
 .home div h2 {
     font-size: 1.5rem;
 }
-
+.home div:nth-of-type(2) > div{
+    height: 308px;
+    width: 261px;
+    background-image: url(../../public/1.png);
+    background-repeat: no-repeat;
+}
 @keyframes text {
     0% {
         background-position: 0% center;
@@ -40,5 +45,29 @@ section.home {
 
     100% {
         background-position: -200% center;
+    }
+}
+@media screen and (min-width:800px) {
+    section.home{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .home div h1{
+        font-size: 5rem;
+    }
+    .home div h2{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    section.home:nth-child(1) {
+        max-width: 550px;
+        align-self: flex-start;
+    }
+    .home div:nth-of-type(2) > div{
+        height: 457px;
+        width: 386px;
+        background-image: url(../../public/2.png);
+        background-repeat: no-repeat;
     }
 }

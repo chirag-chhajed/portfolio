@@ -8,7 +8,8 @@ export default function Home(){
                 <h2>I craft responsive websites where technologies and creativity</h2>
             </div>
             <div>
-                <img src="./1.png" alt="hello" />
+                <div></div>
+                {/* <img src="./1.png" alt="hello" /> */}
             </div>
             
         </section>
