@@ -6,8 +6,8 @@ function DropDown(){
     const {theme,setTheme} = useContext(Context)
     // console.log(theme)
     return(
-        <div className={styles.dropdown}>
-            <div onClick={()=>setTheme("simple")}></div>
+        <div className={`${styles.dropdown} ${styles[theme]}`}>
+            <div onClick={()=>setTheme("purple")}></div>
             <div onClick={()=>setTheme("dark")}></div>
             <div onClick={()=>setTheme("new")}></div>
             <div onClick={()=>setTheme("hello")}></div>

@@ -1,6 +1,5 @@
 
 .header{
-    --header:red;
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -8,12 +7,12 @@
     padding-inline: 2rem;
     padding-block: 1rem;
     background-color:var(--header);
-    color: wheat;
+    color: #e0b1cb;
     z-index: 2;
     transition: background-color 0.3s ease;
 }
-.simple{
-    --header: purple;
+.purple{
+    --header: #231942;
 }
 .dark{
     --header: green;
