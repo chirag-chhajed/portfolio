@@ -8,9 +8,9 @@ import {Context} from '../../Context'
 export default function Header(){
     const {windowWidth,theme} = useContext(Context)
     const [sidebar, setsidebar] = useState(false);
-    console.log(styles)
+    // console.log(styles)
     const hamburgerIcon = sidebar ? <i onClick={()=>setsidebar(false)} className="ri-close-line ri-2x"></i> : <i onClick={()=> setsidebar(true)} className="ri-menu-line ri-2x"></i>
-
+    const removeTheme = () => setsidebar(false)
     return(
         <>
         <header className={`${styles.header} ${styles[theme]}`}>
@@ -24,7 +24,7 @@ export default function Header(){
                 </div>
             </div>          
         </header>
-        {sidebar && <Sidebar/>}
+        {sidebar && <Sidebar removeTheme={removeTheme}/>}
         </>
     )
 }

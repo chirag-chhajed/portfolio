@@ -1,0 +1,13 @@
+section.contact{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 30px;
+    padding-block: 2rem;
+}
+section.contact a{
+    text-decoration: none;
+}
+section.contact i{
+    color: rebeccapurple;
+}

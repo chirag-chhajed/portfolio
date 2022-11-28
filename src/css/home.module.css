@@ -1,0 +1,44 @@
+section.home {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-inline: 2rem;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: plum;
+    /* text-align: justify; */
+}
+
+.home div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.home div h1 {
+    font-size: 2.5rem;
+}
+
+.home div h1 span {
+    background: linear-gradient(90deg, #fcb0f3 0%, #3e04dc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: text 3s infinite linear;
+    animation-timing-function: ease-in-out;
+}
+
+.home div h2 {
+    font-size: 1.5rem;
+}
+
+@keyframes text {
+    0% {
+        background-position: 0% center;
+    }
+
+    100% {
+        background-position: -200% center;
+    }
+}

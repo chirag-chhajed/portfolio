@@ -1,0 +1,60 @@
+.skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* min-height: 100vh; */
+    background-color: rgb(27, 27, 27);
+}
+
+.skills div {
+    margin-inline: auto;
+}
+
+.skillcard {
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    position: relative;
+}
+
+.skillcard img {
+    height: 100px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.skillcard .imagebg {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: var(--skill-bg-color);
+    z-index: 0;
+    filter: blur(40px);
+    border-radius: 50%;
+    transition: filter 0.4s ease-in;
+}
+.skillcard:hover .imagebg{
+    filter: blur(75px);
+}
+
+
+.skillcard:nth-of-type(1) {
+    --skill-bg-color: #F16529;
+}
+
+.skillcard:nth-of-type(2) {
+    --skill-bg-color: #264DE4;
+}
+
+.skillcard:nth-of-type(3) {
+    --skill-bg-color: #F7DF1E;
+}
+
+.skillcard:nth-of-type(4) {
+    --skill-bg-color: #00a0cc;
+}
+
+.skillcard:nth-of-type(5) {
+    --skill-bg-color: #007eb4;
+}

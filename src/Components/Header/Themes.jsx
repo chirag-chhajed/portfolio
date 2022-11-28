@@ -4,7 +4,7 @@ import styles from "../../css/themes.module.css"
 
 function DropDown(){
     const {theme,setTheme} = useContext(Context)
-    console.log(theme)
+    // console.log(theme)
     return(
         <div className={styles.dropdown}>
             <div onClick={()=>setTheme("simple")}></div>
@@ -21,12 +21,12 @@ function DropDown(){
 export default function Themes(){
     
     const [dropdown,setDropdown] = useState(false)
-
+    // document.addEventListener("click",()=>setDropdown(false))
     
     
     return(
         <>
-            <i className="ri-brush-2-fill ri-2x" title="themes" onClick={()=>setDropdown(e => !e)}></i>
+            <i className="ri-brush-2-fill ri-2x" title="themes" onClick={()=>setDropdown(!dropdown)}></i>
         {dropdown && <DropDown/>}
         </>
         
