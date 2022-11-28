@@ -7,12 +7,11 @@ function DropDown(){
     // console.log(theme)
     return(
         <div className={`${styles.dropdown} ${styles[theme]}`}>
+            <div onClick={()=>setTheme("blue")}></div>
+            <div onClick={()=>setTheme("green")}></div>
             <div onClick={()=>setTheme("purple")}></div>
-            <div onClick={()=>setTheme("dark")}></div>
-            <div onClick={()=>setTheme("new")}></div>
-            <div onClick={()=>setTheme("hello")}></div>
-            <div onClick={()=>setTheme("world")}></div>
-            
+            <div onClick={()=>setTheme("red")}></div>
+            <div onClick={()=>setTheme("dark")}></div>   
         </div>
     )
 }

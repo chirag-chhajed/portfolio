@@ -3,7 +3,7 @@ import { createContext,useState,useEffect,useLayoutEffect } from "react";
 const Context = createContext()
 
 function ContextProvider({children}){
-    const [theme,setTheme] = useState("simple")
+    const [theme,setTheme] = useState("dark")
 
     useEffect(()=>{
         localStorage.setItem("theme",theme)

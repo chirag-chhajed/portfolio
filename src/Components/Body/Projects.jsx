@@ -1,7 +1,11 @@
 import data from "../data"
 import styles from "../../css/project.module.css"
+import {Context} from '../../Context'
+import { useContext } from "react"
 
 function ProjectCard({ img, id, github, deployed,name }) {
+   
+
     return (
         <div key={id} className={styles.projectcard}>
             <div className={styles.projectimage}>
@@ -17,6 +21,7 @@ function ProjectCard({ img, id, github, deployed,name }) {
 }
 
 export default function Projects() {
+    const {theme} = useContext(Context)
     const cards = data.map(card => (
         <ProjectCard
             key={card.id}
@@ -24,7 +29,7 @@ export default function Projects() {
         />
     ))
     return (
-        <section className={styles.projects} id="projects">
+        <section className={`${styles.projects} ${styles[theme]}`} id="projects">
             {cards}
         </section>
     )

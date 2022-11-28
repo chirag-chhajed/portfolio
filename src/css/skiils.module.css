@@ -76,13 +76,13 @@
         width: 150px;
         background-color: var(--skill-bg-color);
         z-index: 0;
-        filter: blur(50px);
+        filter: blur(40px);
         border-radius: 50%;
         transition: filter 0.4s ease-in;
     }
 
     .skillcard:hover .imagebg {
-        filter: blur(75px);
+        filter: blur(60px);
     }
 
 }

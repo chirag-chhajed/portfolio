@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr;
     padding: 3rem 2rem;
-    background-color: #457b9d;
+    background-color: var(--bg-color);
 }
 .projectcard {
     width: 350px;
@@ -13,7 +13,7 @@
     flex-direction: column;
     margin-inline: auto;
     gap: 1rem;
-    background-color: #e63946;
+    background-color: var(--card-color);
     border-radius: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: 5px 5px black;
@@ -45,8 +45,17 @@
     color: black;
     background-color: white;
     padding: 0.5rem 1rem;
-    border-radius: 0.4rem;
+    border-radius: 0.5rem;
     font-weight: 700;
+    box-shadow: 7.5px 7.5px black;
+    transition: all 0.4s ease-in-out;
+}
+
+.projectcard div>a:hover{
+    background-color: black;
+    transform: translate(7.5px,7.5px);
+    box-shadow: none;
+    color: white;
 }
 
 @media screen and (min-width:768px) {
@@ -72,8 +81,23 @@
 }
 
 .blue{
+    --bg-color: #457b9d;
+    --card-color: #e63946;
 
 }
 .green{
-    
+    --bg-color: #606C38;
+    --card-color:#dda15e;
+}
+.purple{
+    --bg-color: #5e548e;
+    --card-color:#fcf6bd;
+}
+.red{
+    --bg-color: #BB9457;
+    --card-color:#003049;
+}
+.dark{
+    --bg-color: #9a8c98;
+    --card-color:#4a4e69;
 }

@@ -4,18 +4,32 @@ section.contact{
     gap: 1rem;
     font-size: 30px;
     padding-block: 2rem;
-    background-color: #1d3557;
-    
-}
-.blue{
-
-}
-.green{
+    background-color: var(--bg-color);
     
 }
 section.contact a{
     text-decoration: none;
 }
 section.contact i{
-    color: #f1faee;
+    color: var(--font-color);
+}
+.blue{
+    --bg-color: #1d3557;
+    --font-color: #f1faee;
+}
+.green{
+    --bg-color: #283618;
+    --font-color: #FEFAE0;
+}
+.purple{
+    --bg-color: #231942;
+    --font-color: #e0b1cb;
+}
+.red{
+    --bg-color: #6f1d1b;
+    --font-color:#ffe6a7;
+}
+.dark{
+    --bg-color: #22223b;
+    --font-color:#f2e9e4;
 }

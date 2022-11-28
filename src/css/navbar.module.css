@@ -10,19 +10,25 @@
     .navbar ul{
         display: flex;
         gap: 2rem;
-        font-size: 1.5rem;
     }
     .navbar a{
         text-decoration: none;
-        color: white;
+        color: var(--font-color);
     }
     .navbar li{
         gap: 2rem;
         font-size: 1.5rem;
         text-indent: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     } 
     .navbar li::marker{
         content: '#';
         font-size: 1.5rem;
+    }
+    .blue{
+        --font-color: #F1FAEE;
+    }
+    .green{
+        --font-color:#FEFAE0;
     }
 }

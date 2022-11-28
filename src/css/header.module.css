@@ -7,22 +7,14 @@
     padding-inline: 2rem;
     padding-block: 1rem;
     background-color:var(--header);
-    color: #f1faee;
+    color: var(--font-color);
     z-index: 2;
     transition: background-color 0.3s ease;
 }
-.new{
-    --header: black;
-}
-.hello{
-    --header: plum;
-}
-.world{
-    --header: yellow;
-}
 .header h2{
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2.5px 5px black;
 }
 .header div {
     display: flex;
@@ -44,10 +36,24 @@ header div > i.ri-brush-2-fill{
        display: block;
     }
 }
-
 .blue{
     --header: #1d3557;
+    --font-color: #f1faee;
 }
 .green{
-    --header: green;
+    --header: #283618;
+    --font-color: #fefae0;
 }
+.purple{
+    --header: #231942;
+    --font-color: #e0b1cb;
+}
+.red{
+    --header: #6f1d1b;
+    --font-color:#ffe6a7;
+}
+.dark{
+    --header: #22223b;
+    --font-color:#f2e9e4;
+}
+
