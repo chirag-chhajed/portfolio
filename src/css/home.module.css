@@ -7,7 +7,6 @@ section.home {
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: plum;
-    gap: 4rem;
 }
 
 .home div {

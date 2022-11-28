@@ -5,6 +5,7 @@
     gap: 2rem;
     background-color: rgb(27, 27, 27);
     padding-block: 3rem;
+    overflow: hidden;
 }
 
 .skills div {
@@ -32,7 +33,6 @@
     width: 150px;
     background-color: var(--skill-bg-color);
     z-index: 0;
-    /* filter: blur(40px); */
     border-radius: 50%;
     transition: filter 0.4s ease-in;
 }
