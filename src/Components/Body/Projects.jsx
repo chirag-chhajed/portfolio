@@ -13,8 +13,8 @@ function ProjectCard({ img, id, github, deployed,name }) {
             </div>
             <h2>{name}</h2>
             <div>
-                <a href={github}>GitHub</a>
-                <a href={deployed}>Deployed</a>
+                <a href={github} target="_blank">GitHub</a>
+                <a href={deployed} target="_blank">Deployed</a>
             </div>
         </div>
     )

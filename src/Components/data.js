@@ -30,10 +30,10 @@ export default [
         name: "Login Form"
     },
     {
-        img:"/assets/BWUPage.png",
+        img:"/assets/anime-paradise.png",
         id:nanoid(),
-        github: "https://github.com/chirag-chhajed/beginner-cohort/tree/main/beginner-cohort/Month%201/Week%203/Crework%20Clone",
-        deployed: "https://task3-crework.netlify.app/html/bwu",
-        name: "Crework Site Clone"
+        github: "https://github.com/chirag-chhajed/anime-app",
+        deployed: "https://reactanime-app.netlify.app/",
+        name: "Anime Paradise"
     }
 ]
