@@ -63,6 +63,15 @@
 .skillcard:nth-of-type(5) {
     --skill-bg-color: #007eb4;
 }
+.skillcard:nth-of-type(6) {
+    --skill-bg-color: #68a063;
+}
+.skillcard:nth-of-type(7) {
+    --skill-bg-color: #477091;
+}
+.skillcard:nth-of-type(8) {
+    --skill-bg-color: #82a26e;
+}
 
 @media screen and (min-width:768px) {
     .skills {

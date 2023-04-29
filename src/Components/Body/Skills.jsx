@@ -34,6 +34,18 @@ export default function Skills(){
                     img={"./assets/tailwind.png"}
                     id={nanoid()}
                 />
+                <SkillCard 
+                    img={"./assets/nodejs.png"}
+                    id={nanoid()}
+                />
+                <SkillCard 
+                    img={"./assets/postgresql-icon.svg"}
+                    id={nanoid()}
+                />
+                <SkillCard 
+                    img={"./assets/mongodb-icon.svg"}
+                    id={nanoid()}
+                />
                 
             </section>
         </>
