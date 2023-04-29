@@ -27,6 +27,10 @@ export default function Skills(){
                     id={nanoid()}
                 />
                 <SkillCard 
+                    img={"./assets/typescript.svg"}
+                    id={nanoid()}
+                />
+                <SkillCard 
                     img={"./assets/react.png"}
                     id={nanoid()}
                 />

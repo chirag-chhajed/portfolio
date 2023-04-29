@@ -55,21 +55,24 @@
 .skillcard:nth-of-type(3) {
     --skill-bg-color: #F7DF1E;
 }
-
 .skillcard:nth-of-type(4) {
-    --skill-bg-color: #00a0cc;
+    --skill-bg-color: #5e90c6;
 }
 
 .skillcard:nth-of-type(5) {
+    --skill-bg-color: #00a0cc;
+}
+
+.skillcard:nth-of-type(6) {
     --skill-bg-color: #007eb4;
 }
-.skillcard:nth-of-type(6) {
+.skillcard:nth-of-type(7) {
     --skill-bg-color: #68a063;
 }
-.skillcard:nth-of-type(7) {
+.skillcard:nth-of-type(8) {
     --skill-bg-color: #477091;
 }
-.skillcard:nth-of-type(8) {
+.skillcard:nth-of-type(9) {
     --skill-bg-color: #82a26e;
 }
 
