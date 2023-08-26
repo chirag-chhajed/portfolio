@@ -4,7 +4,7 @@ import styles from "../../css/skiils.module.css"
 function SkillCard({id,img}){
     return(
         <div key={id} className={styles.skillcard}>
-            <img src={img} alt="logo" />
+            <img loading="lazy" src={img} alt="logo" />
             <div className={styles.imagebg}></div>
         </div>
     )

@@ -9,7 +9,7 @@ export default [
         name: "Pokedex"
     },
     {
-        img: "/assets/sneakerapp.png",
+        img: "/assets/sneakerapp.webp",
         id:nanoid(),
         github: "https://github.com/chirag-chhajed/react-ecommerce-app",
         deployed: " https://ecommercee-app.netlify.app",
@@ -30,7 +30,7 @@ export default [
         name: "Login Form"
     },
     {
-        img:"/assets/anime-paradise.png",
+        img:"/assets/anime-paradise.webp",
         id:nanoid(),
         github: "https://github.com/chirag-chhajed/anime-app",
         deployed: "https://reactanime-app.netlify.app/",

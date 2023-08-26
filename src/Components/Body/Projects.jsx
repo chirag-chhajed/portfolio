@@ -9,7 +9,7 @@ function ProjectCard({ img, id, github, deployed,name }) {
     return (
         <div key={id} className={styles.projectcard}>
             <div className={styles.projectimage}>
-                <img src={img} alt="image" />
+                <img loading="lazy" src={img} alt="image" />
             </div>
             <h2>{name}</h2>
             <div>
